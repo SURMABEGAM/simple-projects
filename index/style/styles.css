@@ -1,0 +1,17 @@
+img{
+                  width:100% ;
+                  height: 100%;
+}
+.row{
+    display: flex; 
+    gap: 5px;
+    margin-bottom: 5px;               
+    height: 400px; 
+             
+}
+.row > div{
+    flex: 1;
+} 
+.two-img {
+       height: calc( (100% - 5px)/2 );
+} 
